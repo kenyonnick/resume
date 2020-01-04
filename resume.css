@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+html {
+    font-family: 'Lato', sans-serif;
+    font-size: 10pt;
+    font-weight: 300;
+}
+
+@page {
+    size: A4;
+    background: white;
+    font-size: 10pt;
+}
+
+body {
+    display: flex;
+    align-content: flex-start;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+
+#leftBar {
+    flex-basis: 10%;
+    background: #8ff;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: stretch;
+    justify-content: space-evenly;
+    padding: 0.25in;
+}
+
+#leftBar h3 {
+    font-size: 14pt;
+    font-weight: 600;
+    margin: 0.125in 0;
+}
+
+#leftBar h4 {
+    font-weight: 600;
+}
+
+#titling {
+    flex-basis: 5%;
+    margin-bottom: 0.125in;
+}
+
+#titling h1 {
+    font-size: 32pt;
+    font-weight: 600;
+}
+
+#titling h2 {
+    font-size: 12pt;
+}
+
+#info {
+    flex-basis: 5%;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+
+#references {
+    flex-basis: 5%;
+}
+
+#info li {
+    margin: 0.025in;
+}
+
+#skills {
+    flex-basis: 85%;
+}
+
+#skills h4 {
+    margin-bottom: 0.0625in;
+}
+
+#skills>ul>li {
+    margin: 0.125in 0;
+}
+
+#content {
+    flex-basis: 90%;
+    padding: 0.25in;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+
+#content h3 {
+    font-size: 14pt;
+    font-weight: 600;
+}
+
+#content>div>ul>li {
+    margin: 0.125in 0;
+}
+
+#content>div>ul>li>ul {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin: 0.0625in 0.125in;
+    width: 90%;
+}
+
+#content>div>ul>li>ul>li {
+    margin-bottom: 0.0625in;
+    list-style-type: square;
+    list-style: square inside;
+}
+
+.entryTitleBar {
+    margin-bottom: 0.125in;
+}
+
+.entryName {
+    font-weight: 600;
+    display: inline;
+}
+
+.date {
+    float: right;
+}
+
+#content h4 {
+    display: inline;
+}
