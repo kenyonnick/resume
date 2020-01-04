@@ -48,6 +48,7 @@ body {
 #titling h1 {
     font-size: 32pt;
     font-weight: 600;
+    margin: 0.125in 0;
 }
 
 #titling h2 {
