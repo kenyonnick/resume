@@ -20,14 +20,13 @@ body {
 
 #leftBar {
     flex-basis: 10%;
-    background: #8ff;
+    background: #f88;
     color: black;
     display: flex;
     flex-direction: column;
     align-content: flex-start;
     align-items: stretch;
     justify-content: space-evenly;
-    padding: 0.25in;
 }
 
 #leftBar h3 {
@@ -43,6 +42,7 @@ body {
 #titling {
     flex-basis: 5%;
     margin-bottom: 0.125in;
+    padding: 0.25in;
 }
 
 #titling h1 {
@@ -62,10 +62,13 @@ body {
     align-content: flex-start;
     align-items: stretch;
     justify-content: space-evenly;
+    padding: 0.25in;
+    background: #8f8;
 }
 
 #references {
     flex-basis: 5%;
+    padding: 0.25in;
 }
 
 #info li {
@@ -74,6 +77,8 @@ body {
 
 #skills {
     flex-basis: 85%;
+    padding: 0.25in;
+    background: #8ff;
 }
 
 #skills h4 {
@@ -82,6 +87,10 @@ body {
 
 #skills>ul>li {
     margin: 0.125in 0;
+}
+
+#skills>ul>li>ol>li {
+    margin: 0.0625in 0;
 }
 
 #content {
