@@ -24,7 +24,6 @@ body {
 
 #leftBar {
     flex-basis: 10%;
-    background: #f88;
     color: black;
     display: flex;
     flex-direction: column;
@@ -32,6 +31,7 @@ body {
     align-items: stretch;
     justify-content: space-evenly;
     width: 3in;
+    padding: 0.125in 0;
 }
 
 #leftBar h3 {
@@ -46,12 +46,13 @@ body {
 
 #titling {
     flex-basis: 5%;
-    margin-bottom: 0.125in;
+    
     padding: 0.25in;
+    background: #f88;
 }
 
 #titling h1 {
-    font-size: 32pt;
+    font-size: 24pt;
     font-weight: 600;
     margin: 0.125in 0;
 }
