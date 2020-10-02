@@ -3,6 +3,8 @@ html {
     font-family: 'Lato', sans-serif;
     font-size: 10pt;
     font-weight: 300;
+    width: 8.5in;
+    height: 11in;
 }
 
 @page {
@@ -16,6 +18,8 @@ body {
     align-content: flex-start;
     align-items: stretch;
     justify-content: space-evenly;
+    width: 8.5in;
+    height: 11in;
 }
 
 #leftBar {
@@ -27,6 +31,7 @@ body {
     align-content: flex-start;
     align-items: stretch;
     justify-content: space-evenly;
+    width: 3in;
 }
 
 #leftBar h3 {
@@ -101,11 +106,17 @@ body {
     align-content: flex-start;
     align-items: stretch;
     justify-content: space-evenly;
+    width: 5in;
 }
 
 #content h3 {
     font-size: 14pt;
     font-weight: 600;
+}
+
+#content>div>p {
+    margin: 0.125in 0;
+    width: 6in;
 }
 
 #content>div>ul>li {
