@@ -5,6 +5,8 @@ html {
     font-weight: 300;
     width: 8.5in;
     height: 11in;
+    /* border: thin solid red; */
+    background: black;
 }
 
 @page {
@@ -14,47 +16,52 @@ html {
 }
 
 body {
+    background: white;
     display: flex;
-    align-content: flex-start;
+    align-content: center;
     align-items: stretch;
-    justify-content: space-evenly;
-    width: 8.5in;
-    height: 11in;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    padding: 0.26in 0.2in;
 }
 
 #leftBar {
-    flex-basis: 10%;
     color: black;
     display: flex;
     flex-direction: column;
-    align-content: flex-start;
+    align-content: space-between;
     align-items: stretch;
-    justify-content: space-evenly;
-    width: 3in;
-    padding: 0.125in 0;
+    justify-content: space-between;
+    width: 2.5in;
+    height: 100%;
 }
 
 #leftBar h3 {
     font-size: 14pt;
     font-weight: 600;
-    margin: 0.125in 0;
+    margin: 0.0625in 0;
 }
 
 #leftBar h4 {
     font-weight: 600;
 }
 
+#leftBar > div{
+    padding: 0.125in 0.25in;
+    width: 100%;
+    flex-grow: 1;
+}
+
 #titling {
     flex-basis: 5%;
-    
-    padding: 0.25in;
     background: #f88;
 }
 
 #titling h1 {
-    font-size: 24pt;
+    font-size: 22pt;
     font-weight: 600;
-    margin: 0.125in 0;
+    margin-bottom: 0.0625in;
 }
 
 #titling h2 {
@@ -62,13 +69,12 @@ body {
 }
 
 #info {
-    flex-basis: 5%;
+    flex-basis: 10%;
     display: flex;
     flex-direction: column;
     align-content: flex-start;
     align-items: stretch;
     justify-content: space-evenly;
-    padding: 0.25in;
     background: #8f8;
 }
 
@@ -78,12 +84,11 @@ body {
 }
 
 #info li {
-    margin: 0.025in;
+    margin: 0.0625in 0;
 }
 
 #skills {
     flex-basis: 85%;
-    padding: 0.25in;
     background: #8ff;
 }
 
@@ -100,14 +105,14 @@ body {
 }
 
 #content {
-    flex-basis: 90%;
-    padding: 0.25in;
+    /* padding: 0.25in; */
     display: flex;
     flex-direction: column;
-    align-content: flex-start;
+    align-content: space-around;
     align-items: stretch;
-    justify-content: space-evenly;
-    width: 5in;
+    justify-content: space-around;
+    width: 6.5in;
+    padding: 0.25in;
 }
 
 #content h3 {
@@ -117,7 +122,7 @@ body {
 
 #content>div>p {
     margin: 0.125in 0;
-    width: 6in;
+    line-height: 1.25;
 }
 
 #content>div>ul>li {
